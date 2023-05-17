@@ -20,8 +20,8 @@ const connect = async () =>{
         })
 
         //Ahora nos vamos a traer el host y el name de la base de datos.
-        const{ name, host}= db.connection
-        console.log(`Conectada la DB 👍 en el host: ${host} con el nombre: ${name}`)
+        const{ name, host} = db.connection
+        console.log(`Conectada la DB 👍 en el host: ${host} con el nombre: ${name}`);
     } catch (error) {
         console.log('No se ha conectado la DB ❌')
     }
