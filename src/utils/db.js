@@ -23,7 +23,7 @@ const connect = async () =>{
         const{ name, host} = db.connection
         console.log(`Conectada la DB 👍 en el host: ${host} con el nombre: ${name}`);
     } catch (error) {
-        console.log('No se ha conectado la DB ❌')
+        console.log('No se ha conectado la DB ❌', error)
     }
 }
 

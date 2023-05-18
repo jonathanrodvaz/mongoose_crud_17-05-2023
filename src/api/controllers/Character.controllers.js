@@ -77,6 +77,7 @@ const getById = async (req, res, next) => {
   }
 };
 
+
 ///-------------
 ///---GETBYNAME-
 ///-------------
